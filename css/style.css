@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+h1{text-align:center;
+
+}
+.menu-bg {
+    background-color: #333;
+    padding: 15px 0;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.menu-logo a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.menu-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+.produtos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 0;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.produtos-item {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.produtos-item:hover {
+    transform: translateY(-20px);
+}
+.produtos-item.purple {
+    background-color: #9b59b6;
+    color: #fff;
+}
+.produtos-item.pink {
+    background-color: #0d7637;
+    color: #fff;
+}
+.produtos-item.blue {
+    background-color: #3498db;
+    color: #fff;
+}
+.produtos-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    bottom: 0;
+}
